@@ -1,0 +1,126 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+ :root {
+  --background: var(--demi-white);
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  /* padding-top: var(--header-heigth); */
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+} 
+
+
+:root{
+
+  /* colors */
+  --primary-color: rgb(255, 140, 46);
+  --white: white;
+  --demi-white: rgb(238, 238, 238);
+  --black: black;
+  --gray: gray;
+  --black-demi-transparent: hsla(0, 0%, 0%, 0.500);
+
+  /* fonts */
+  --primary-font: 500;
+  --font-bold: 700;
+  --font-regular: 300;
+
+  /* sizes */
+  --primary-size: 20px;
+  --double-size: calc(var(--primary-size) * 2);
+  --tripel-size: calc(var(--primary-size) * 3);
+  --half-size: calc(var(--primary-size)/2);
+  --second-size: 15px;
+  --header-heigth: 100px;
+  --header-heigth-logo: calc(var(--header-heigth)/2);
+  --header-heigth-navigation: calc(var(--header-heigth)/2);
+
+  /* spaces */
+  --primary-margin: 10px;
+  --double-margin:calc(var(--primary-margin)*2);
+  --tripel-margin:calc(var(--primary-margin)*3);
+}
+.invisible{
+  display: none;
+}
+.invisible-v{
+  visibility: hidden;
+  width: 0;
+  transition: 3s;
+}
+
+/* .page-container{
+  padding-top: var(--header-heigth);
+  overflow: scroll;
+  width: 100%;
+  height: calc( 100vh - var(--header-heigth));
+  height: 100vh;
+} */
+
+.section-props{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary-color);
+  cursor: pointer;
+  margin: 10px;
+
+}
+
+.marginHeaderHeight{
+  height: var(--header-heigth);
+}
+
+#home-page #back-to-top{
+  color: red;
+  position: fixed;
+  bottom: 7%;
+  left: 7%;
+  background-color: var(--primary-color);
+  padding: 7px;
+  color: var(--white);
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

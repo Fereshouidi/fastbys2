@@ -1,0 +1,9 @@
+#pub-component{
+    width: 100%;
+    background-color: var(--demi-white);
+    margin: 2px 0;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

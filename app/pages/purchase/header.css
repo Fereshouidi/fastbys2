@@ -1,0 +1,176 @@
+#purchase-page header{
+    position: fixed;
+    padding: 4px;
+    width: 100%;
+    height: var(--header-heigth);
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 1px 10px var(--black-demi-transparent);
+    z-index: 999;
+}
+#purchase-page header #logo{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 5%;
+}
+#purchase-page header #logo img{
+    width: var(--tripel-size);
+    height: var(--tripel-size);
+}
+#purchase-page header #logo span{
+    color: var(--primary-color);
+    font-weight: var(--font-bold);
+    font-size: var(--primary-size);
+    cursor: pointer;
+}
+#purchase-page header #navigation{
+    height: var(--header-heigth-navigation);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    padding: 3%;
+}
+#purchase-page header #navigation #logo{
+    display: inline;
+    height: var(--header-heigth-logo);
+    width: 50%;
+    height: 60%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right:var(--tripel-margin);
+}
+#purchase-page header #navigation #logo img{
+    display: inline;
+    cursor: pointer;
+}
+#purchase-page header #navigation .navigation-item{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70px;
+    height: 40%;
+    padding: 25px 25px 20px 25px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+#purchase-page header #navigation .navigation-item:hover{
+    background-color: var(--primary-color);
+}
+#purchase-page header #navigation .navigation-item:active{
+    background-color: rgb(153, 69, 0);;
+}
+#purchase-page header #navigation #purchase:hover #num{
+    background-color: var(--white);
+    color: var(--primary-color);
+}
+#purchase-page header #navigation .navigation-item i{
+    margin: 2px;
+    color: var(--black);
+    font-size: var(--primary-size);
+}
+#purchase-page header #navigation .navigation-item span{
+    font-size: var(--half-size);
+    color: var(--black);
+    
+
+}
+#purchase-page header #navigation #purchase #num{
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: 9px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -5px;
+    right: 13px;
+    border: 1px solid var(--primary-color);
+}
+
+#purchase-page .sidebar {
+    background-color: var(--white);
+    color: var(--white);
+    width: 200px;
+    height: calc(100vh - var(--header-heigth));
+    position: fixed;
+    left: -220px;
+    transition: left 0.3s ease;
+    overflow-y: auto;
+    padding-top: 20px;
+    top: var(--header-heigth);
+    box-shadow: 0px 10px 10px var(--black-demi-transparent);
+}
+
+#purchase-page .sidebar.active {
+    left: 0;
+}
+#purchase-page .sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* .sidebar ul li {
+    border-bottom: 1px solid #555;
+} */
+#purchase-page .sidebar-contener{
+    background-color:transparent;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: var(--header-heigth);
+    left: 0;
+    transition: 0,3s;
+}
+#purchase-page .sidebar-items li{
+    color: var(--black);
+    padding: 7px;
+    cursor: pointer;
+}
+#purchase-page .sidebar-items li:hover{
+    background-color: var(--primary-color);
+}
+#purchase-page .sidebar-items li:active{
+    background-color: rgb(153, 69, 0);;
+}
+#purchase-page .sidebar-items li i{
+    margin-right: 5px;
+}
+#purchase-page #account-item{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--black);
+    border-top: 1px solid var(--black);
+    cursor: pointer;
+}
+#purchase-page #account-item i{
+    position: absolute;
+    left: 10px;
+}
+#purchase-page #account-item:hover{
+    background-color: var(--primary-color);
+}
+#purchase-page #account-item:active{
+    background-color: rgb(153, 69, 0);;
+}
+
+
+    

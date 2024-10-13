@@ -1,0 +1,273 @@
+.secont-body{
+    background-color: #f5f5f5;
+    margin-top: var(--total-header-height);
+    width: 100%;
+    height: 100vh;
+    padding-bottom: var(--total-header-height);
+    position: fixed;
+    overflow: scroll;
+  }
+  
+  #while-search{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: #000000;
+    opacity: 0.6;
+    z-index: 100;
+  }
+  
+  .section-of-pub{
+    height: 22.5em;
+    background-color: var(--primary-color);
+  }
+  
+  
+  
+  
+  .products-list{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    flex-wrap: wrap;
+    padding: 3em 6.2em 4em 6.2em;
+  }
+  .products-list .product-cart{
+    position: relative;
+    border-radius: 1em;
+    background-color: white;
+    width: 16.5em;
+    height: 16.5em;
+    display: flex;
+    align-items: space-between;
+    flex-direction: column;
+    margin: 0.5em;
+    padding: 0.8em;
+    cursor: pointer;
+  }
+  .products-list .product-cart .img{
+    /* position: absolute;
+    top: 0; */
+    /* position: relative; */
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 65%;
+    height: 65%;
+    padding: 3em 1em 0.2em 1em;
+    /* background-color: #656464;  */
+  }
+  .products-list .product-cart .img img{
+    width: 100%;
+    height: 100%;
+  }
+  .products-list .product-cart .direction{
+    /* background-color: #3cb819; */
+    width: 80%;
+    height: 100%;
+    /* display: flex; */
+    flex-direction: column;
+    position: relative;
+    /* bottom: 0; */
+    margin-left: 100%;
+    transform: translateX(-100%);
+  }
+  .products-list .product-cart .direction .from-where{
+    /* background-color: #eff312; */
+    position: absolute;
+    left: 0;
+    width: auto;
+    margin-top: 0.3em;
+    padding: 0 0em;
+    height: 1.5em;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+  }
+  .products-list .product-cart .direction .from-where h6{
+    /* background-color: #2e56cc; */
+    width: auto;
+    margin: 0 0.2em;
+    font-size: 0.65em;
+    color: #8f8f8f;
+  }
+  .products-list .product-cart .direction .from-where .flag{
+    /* background-color: #1a1a0e; */
+    margin: 0 0.2em;
+  }
+  .products-list .product-cart .direction p{
+    /* background-color: #144bf0; */
+    /* position: absolute; */
+    width: 100%;
+    max-height: 4em;
+    margin-top: 2.3em;
+    left: 0;
+    padding: 0.5 0em;
+    font-size: 0.85em;
+    overflow: hidden;
+    direction: rtl;
+  }
+  .products-list .product-cart i{
+    color: var(--primary-color);
+    position: absolute;
+    bottom: 0.8em;
+    left: 0.8em;
+    font-size: 1.3em;
+  }
+  
+  
+  #more-sign{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 15em;
+    background-color: var(--primary-color);
+    background: url('https://png.pngtree.com/thumb_back/fh260/back_our/20190623/ourmid/pngtree-summer-vacation-tuition-blue-literary-poster-banner-background-image_251874.jpg') no-repeat center;
+    background-size: cover;
+  }
+  #more-sign h1{
+    font-size: 2.5em;
+    /* background-color: #ac0c0c; */
+    color: white;
+  }
+  
+  .products-list .more-product-cart {
+    height: 20em;
+    /* background-color: red; */
+  }
+  .more-product-cart h1{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-right: 1em;
+    font-size: 1em;
+  }
+  
+  #download-more{
+    position: absolute;
+    bottom: 0;
+    width: auto;
+    height: auto;
+    padding: 0.2em 1em;
+    text-decoration: none;
+    color: black;
+    border-radius: 0.5em;
+    margin: 1em;
+    background-color: var(--primary-color);
+  }
+  #download-more:hover{
+    color: white;
+  }
+  
+  
+  
+  
+  
+  
+  .container-parent_{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 40px 3em;
+  }
+  .container-parent_ .container-child{
+    background-color: ;
+    width: 100%;
+    /* margin-top: 30px; */
+  }
+  .container-child .title{
+    font-size: 1.5em;
+    font-family: "Montserrat", sans-serif;
+    color: var(--primary-color);
+    text-align: center;
+    word-break: break;
+  }
+  .container-child p{
+    direction: ltr;
+    margin: 0.5em;
+    padding: 0;
+    font-size: 0.85em;
+    color: #4f4f4f;
+    opacity: 0.8;
+  }
+  
+  .container-child p a{
+    text-decoration: none;
+    color: #341a51;
+    opacity: 0.7;
+  }
+  .container-child p a:hover{
+    color: #3a1c5f;
+    opacity: 1;
+  }
+  
+  #contact_section .social-media {
+    float: right;
+    float: bottom;
+  }
+  #contact_section .social-media .social-media-icons{
+    display: flex;
+    justify-content: center;
+  }
+  #contact_section .social-media a i{
+    font-size: 1.3em;
+    color: #033a6d;
+    margin: 0 10px;
+    transition: 0.2s;
+  }
+  #contact_section .social-media a i:hover{
+    font-size: 1.5em;
+    margin: 0 10px;
+  }
+  #contact_section .social-media .fa-facebook{
+    color: #1c27ca;
+  }
+  #contact_section .social-media .fa-instagram{
+    color: #ca1c67;
+  }
+  #contact_section .social-media .fa-youtube{
+    color: #f00a0a;
+  }
+  #contact_section .social-media .fa-twitter{
+    color: #219ce8;
+  }
+
+  
+  
+  
+  
+  
+  
+  #a{
+    width: 100%;
+    height: 100%;
+    background-color: #212121;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  #aaa{
+    height: var(--total-header-height);
+  }
+  
+  /* #sec-try{
+    height: 3000px;
+    background-color: #ffffff;
+  } */

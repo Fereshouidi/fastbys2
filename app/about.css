@@ -1,0 +1,38 @@
+#about-section{
+    background-color: var(--demi-white);
+    margin: 2px 0;
+    padding: 40px 0;
+}
+.about-section {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .about-section h2, .about-section h3 {
+    color: var(--black);
+  }
+  .about-section p , .about-section li {
+    color: var(--black);
+    opacity: 0.7;
+    font-size: var(--second-size);
+    font-weight: var(--primary-weight);
+  }
+  .about-section p {
+    margin-bottom: 15px;
+  }
+  
+  .about-section ul {
+    margin-left: 20px;
+  }
+  
+  .about-section a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  .about-section a:hover {
+    text-decoration: underline;
+  }
